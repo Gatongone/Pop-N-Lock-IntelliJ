@@ -1,12 +1,24 @@
 <idea-plugin>
     <id>PopNLock</id>
-    <version>1.0.0</version>
-    <name>PopNLock</name>
+    <version>0.0.1</version>
+    <name>Pop N'Lock</name>
     <category>UI</category>
     <vendor email="gatongone@gmail.com" url="https://www.github.com.gatongone">Gatongone</vendor>
     <idea-version since-build="241" until-build="243.*"/>
     <description><![CDATA[
-    Jetbrains IDEs theme.<br>
+    A dark theme for IntelliJ IDEs, which was inspired by <a href="https://github.com/Luxcium/pop-n-lock-theme-vscode">pop-n-lock-theme-vscode</a> of <a href="https://github.com/Luxcium">Luxcium</a>.
+    <br>
+    <p>
+    <h3>Install:</h3>
+    <ul>
+        <li><b>From Jetbrains Marketplace:</b> In your IDE, open <c>File/Settings</c> menu, find out <c>plugins</c> tab. Search for <c>Pop N' Lock</c>, then install and restart.</li>
+        <li><b>From Native Jar:</b> Dowload <c>PopNLock.jar</c> from the <a href="https://github.com/Gatongone/Pop-N-Lock-IntelliJ/releases">release pages</a> to your disk. In your IDE, open <c>File/Settings</c> menu, find out <c>Plugins</c>. Then click <c>Install Plugin from Disk</c>.</li>
+    </ul>
+    </p>
+    <br>
+    <p>
+    | More suggested installing details see: <a href="https://www.jetbrains.com/help/idea/managing-plugins.html#suggested-plugins">Suggested plugins</a>.
+    </p>
   ]]></description>
 
     <change-notes><![CDATA[
