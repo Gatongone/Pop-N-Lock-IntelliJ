@@ -2,6 +2,7 @@
   "name": "PopNLock",
   "author": "Gatongone",
   "dark": true,
+  "editorScheme": "/PopNLock.xml",
   "colors": {
     "deepground": "#141421ff",
     "background": "#1c1c2dff",
