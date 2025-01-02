@@ -1,5 +1,5 @@
 {
-  "name": "PopNLock",
+  "name": "Pop N' Lock",
   "author": "Gatongone",
   "dark": true,
   "editorScheme": "/PopNLock.xml",
@@ -10,24 +10,26 @@
     "selection": "#113a5c",
     "highlight": "#811da2ff",
     "normal": "#991f8aff",
-    "text": "#bab2aeff"
+    "text": "#bab2aeff",
+    "border": "#313147ff"
   },
   "ui": {
     "*": {
       "foreground": "text",
       "background": "background",
-      "borderColor": "background",
       "lineSeparatorColor": "background",
       "separatorColor": "background",
       "selectionInactiveBackground": "selection",
       "selectionBackground": "selection",
-      "hoveredBackground": "hover"
+      "selectedBackground": "selection",
+      "hoveredBackground": "hover",
+      "borderColor": "background"
     },
     "Button": {
-      "default.startBackground":"highlight",
-      "default.endBackground":"highlight",
-      "startBackground":"highlight",
-      "endBackground":"highlight"
+      "default.startBackground": "highlight",
+      "default.endBackground": "highlight",
+      "startBackground": "highlight",
+      "endBackground": "highlight"
     },
     "VersionControl": {
       "Log.Commit": {
@@ -36,10 +38,14 @@
       }
     },
     "Borders.color": "background",
+    "Borders.ContrastBorderColor": "border",
     "ToolWindow.Header.inactiveBackground": "background",
-    "SearchEverywhere.SearchField.borderColor": "selection",
     "CompletionPopup.Advertiser.foreground": "highlight",
     "Link.activeForeground": "highlight",
-    "TextArea.inactiveBackground": "deepground"
+    "TextArea.inactiveBackground": "deepground",
+    "Component.borderColor": "border",
+    "Table.gridColor": "highlight",
+    "Table.stripeColor": "deepground",
+    "TableHeader.bottomSeparatorColor": "border",
   }
 }
