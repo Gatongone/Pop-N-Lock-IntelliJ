@@ -2,10 +2,10 @@
   "name": "PopNLock",
   "author": "Gatongone",
   "dark": true,
-  "editorScheme": "/PopNLock.xml",
   "colors": {
     "deepground": "#141421ff",
     "background": "#1c1c2dff",
+    "hover": "#0c2d47",
     "selection": "#113a5c",
     "highlight": "#811da2ff",
     "normal": "#991f8aff",
@@ -19,13 +19,20 @@
       "lineSeparatorColor": "background",
       "separatorColor": "background",
       "selectionInactiveBackground": "selection",
-      "selectionBackground": "selection"
+      "selectionBackground": "selection",
+      "hoveredBackground": "hover"
     },
     "Button": {
       "default.startBackground":"highlight",
       "default.endBackground":"highlight",
       "startBackground":"highlight",
       "endBackground":"highlight"
+    },
+    "VersionControl": {
+      "Log.Commit": {
+        "currentBranchBackground": "background",
+        "unmatchedForeground": "deepground"
+      }
     },
     "Borders.color": "background",
     "ToolWindow.Header.inactiveBackground": "background",
