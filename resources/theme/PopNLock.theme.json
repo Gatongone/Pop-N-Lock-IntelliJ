@@ -1,0 +1,37 @@
+{
+  "name": "PopNLock",
+  "author": "Gatongone",
+  "dark": true,
+  "editorScheme": "/PopNLock.xml",
+  "colors": {
+    "deepground": "#141421ff",
+    "background": "#1c1c2dff",
+    "selection": "#113a5c",
+    "highlight": "#811da2ff",
+    "normal": "#991f8aff",
+    "text": "#bab2aeff"
+  },
+  "ui": {
+    "*": {
+      "foreground": "text",
+      "background": "background",
+      "borderColor": "background",
+      "lineSeparatorColor": "background",
+      "separatorColor": "background",
+      "selectionInactiveBackground": "selection",
+      "selectionBackground": "selection"
+    },
+    "Button": {
+      "default.startBackground":"highlight",
+      "default.endBackground":"highlight",
+      "startBackground":"highlight",
+      "endBackground":"highlight"
+    },
+    "Borders.color": "background",
+    "ToolWindow.Header.inactiveBackground": "background",
+    "SearchEverywhere.SearchField.borderColor": "selection",
+    "CompletionPopup.Advertiser.foreground": "highlight",
+    "Link.activeForeground": "highlight",
+    "TextArea.inactiveBackground": "deepground"
+  }
+}

@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>PopNLock</id>
+    <version>1.0.0</version>
+    <name>PopNLock</name>
+    <category>UI</category>
+    <vendor email="gatongone@gmail.com" url="https://www.github.com.gatongone">Gatongone</vendor>
+    <idea-version since-build="241" until-build="243.*"/>
+    <description><![CDATA[
+    Jetbrains IDEs theme.<br>
+  ]]></description>
+
+    <change-notes><![CDATA[
+    Initial release of the theme.
+  ]]></change-notes>
+
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="PopNLock" path="/theme/PopNLock.theme.json"/>
+    </extensions>
+</idea-plugin>
