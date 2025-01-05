@@ -27,6 +27,6 @@
 
     <depends>com.intellij.modules.platform</depends>
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="PopNLock" path="/theme/PopNLock.theme.json"/>
+        <themeProvider id="Pop N' Lock" path="/theme/PopNLock.theme.json"/>
     </extensions>
 </idea-plugin>

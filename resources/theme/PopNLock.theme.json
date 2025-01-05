@@ -46,6 +46,6 @@
     "Component.borderColor": "border",
     "Table.gridColor": "highlight",
     "Table.stripeColor": "deepground",
-    "TableHeader.bottomSeparatorColor": "border",
+    "TableHeader.bottomSeparatorColor": "border"
   }
 }
