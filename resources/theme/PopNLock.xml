@@ -1,8 +1,8 @@
-<scheme name="Pop N' Lock" version="142" parent_scheme="Default">
+<scheme name="Pop N' Lock copy" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="ide">idea</property>
-    <property name="ideVersion">2025.1.1.1.0.0</property>
+    <property name="ide">Rider</property>
+    <property name="ideVersion">2025.1.2.0.0</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_SIZE" value="14" />
@@ -17,6 +17,7 @@
     <option name="CONSOLE_BACKGROUND_KEY" value="141421" />
     <option name="DELETED_LINES_COLOR" value="6A1D2E" />
     <option name="DOCUMENTATION_COLOR" value="1D1C2E" />
+    <option name="DOC_COMMENT_GUIDE" value="3B482E" />
     <option name="ERROR_HINT" value="20213A" />
     <option name="FILESTATUS_ADDED" value="ABC023" />
     <option name="FILESTATUS_COPIED" value="C3E88D" />
@@ -118,7 +119,7 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="ANONYMOUS_CLASS_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="fabd2f" />
@@ -191,13 +192,13 @@
     </option>
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="83a598" />
+        <option name="FOREGROUND" value="3399ff" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="83a598" />
+        <option name="FOREGROUND" value="3399ff" />
       </value>
     </option>
     <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
@@ -297,8 +298,9 @@
     </option>
     <option name="CTRL_CLICKABLE">
       <value>
-        <option name="FOREGROUND" value="6b4cff" />
+        <option name="FOREGROUND" value="4690c4" />
         <option name="EFFECT_COLOR" value="6b4cff" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
@@ -358,6 +360,36 @@
         <option name="FOREGROUND" value="d3869b" />
       </value>
     </option>
+    <option name="CodeWithMe.USER_1_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="134d20" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_2_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="524242" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_3_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="564477" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_4_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="573f2d" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_5_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="1c4464" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_6_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="4b452d" />
+      </value>
+    </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
         <option name="FOREGROUND" value="d3869b" />
@@ -398,7 +430,7 @@
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="9f58f6" />
+        <option name="FOREGROUND" value="4394c7" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
@@ -419,7 +451,7 @@
     </option>
     <option name="DEFAULT_DOC_MARKUP">
       <value>
-        <option name="FOREGROUND" value="b8a789" />
+        <option name="FOREGROUND" value="fabd2f" />
       </value>
     </option>
     <option name="DEFAULT_DOT">
@@ -566,7 +598,7 @@
     <option name="DEPRECATED_ATTRIBUTES">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="ff3939" />
+        <option name="EFFECT_COLOR" value="abc023" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -630,7 +662,7 @@
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="6b4cff" />
+        <option name="FOREGROUND" value="4690c4" />
         <option name="EFFECT_COLOR" value="6b4cff" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -715,7 +747,7 @@
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="6b4cff" />
+        <option name="FOREGROUND" value="4690c4" />
         <option name="EFFECT_COLOR" value="6b4cff" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -836,6 +868,16 @@
     <option name="LOG_EXPIRED_ENTRY">
       <value>
         <option name="FOREGROUND" value="928374" />
+      </value>
+    </option>
+    <option name="LOG_INFO_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="b8bb26" />
+      </value>
+    </option>
+    <option name="LOG_VERBOSE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="3399ff" />
       </value>
     </option>
     <option name="LOG_WARNING_OUTPUT">
@@ -1048,8 +1090,8 @@
     </option>
     <option name="RUNTIME_ERROR">
       <value>
-        <option name="EFFECT_COLOR" value="ff0f94" />
-        <option name="ERROR_STRIPE_COLOR" value="9e2927" />
+        <option name="EFFECT_COLOR" value="ea1748" />
+        <option name="ERROR_STRIPE_COLOR" value="ea1748" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -1098,10 +1140,40 @@
         <option name="FOREGROUND" value="f9f5d7" />
       </value>
     </option>
+    <option name="ReSharper.ASP_NET_RAZOR_TAG_HELPER_ATTRIBUTE" baseAttributes="ReSharper.ASP_NET_RAZOR_KEYWORD" />
+    <option name="ReSharper.ASP_NET_RAZOR_TAG_HELPER_ELEMENT" baseAttributes="ReSharper.ASP_NET_RAZOR_KEYWORD" />
+    <option name="ReSharper.COGNITIVE_COMPLEXITY_ERROR_HINT">
+      <value>
+        <option name="FOREGROUND" value="f4f4f4" />
+        <option name="BACKGROUND" value="ea1748" />
+      </value>
+    </option>
+    <option name="ReSharper.COGNITIVE_COMPLEXITY_INFO_HINT">
+      <value>
+        <option name="FOREGROUND" value="f4f4f4" />
+        <option name="BACKGROUND" value="abc023" />
+      </value>
+    </option>
+    <option name="ReSharper.COGNITIVE_COMPLEXITY_WARNING_HINT">
+      <value>
+        <option name="FOREGROUND" value="f4f4f4" />
+        <option name="BACKGROUND" value="fabd2f" />
+      </value>
+    </option>
+    <option name="ReSharper.DYNAMIC_PROGRAM_ANALYSIS_HIGHLIGHTER_ISSUE_FRAME">
+      <value>
+        <option name="BACKGROUND" value="884b41" />
+      </value>
+    </option>
     <option name="ReSharper.HINT">
       <value>
         <option name="EFFECT_COLOR" value="d1fe5c" />
         <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="ReSharper.MATCHED_FORMAT_STRING_ITEM">
+      <value>
+        <option name="BACKGROUND" value="a4648" />
       </value>
     </option>
     <option name="ReSharper.PROPERTY_IDENTIFIER">
@@ -1109,6 +1181,9 @@
         <option name="FOREGROUND" value="91b7c9" />
       </value>
     </option>
+    <option name="ReSharper.STRING_ESCAPE_CHARACTER_2" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
+    <option name="ReSharper.ST_METHOD" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="ReSharper.ST_TYPE" baseAttributes="DEFAULT_CLASS_NAME" />
     <option name="ReSharper.T4_DIRECTIVE">
       <value>
         <option name="FOREGROUND" value="ff3939" />
@@ -1210,7 +1285,7 @@
     </option>
     <option name="SUGGESTION">
       <value>
-        <option name="EFFECT_COLOR" value="d1fe5c" />
+        <option name="EFFECT_COLOR" value="abc023" />
         <option name="ERROR_STRIPE_COLOR" value="1a6dce" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
@@ -1228,6 +1303,11 @@
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="d5c4a1" />
+      </value>
+    </option>
+    <option name="TERMINAL_COMMAND_TO_RUN_USING_IDE">
+      <value>
+        <option name="BACKGROUND" value="134904" />
       </value>
     </option>
     <option name="TEXT">
@@ -1272,6 +1352,11 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="UNMATCHED_BRACE_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="db1845" />
+      </value>
+    </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="fabd2f" />
@@ -1295,9 +1380,9 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="fb4934" />
+        <option name="FOREGROUND" value="928374" />
         <option name="EFFECT_COLOR" value="ea1748" />
-        <option name="EFFECT_TYPE" value="4" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="XML_ATTRIBUTE_NAME">
@@ -1326,10 +1411,6 @@
         <option name="FOREGROUND" value="fb4934" />
       </value>
     </option>
-    <option name="YAML_SCALAR_KEY">
-      <value>
-        <option name="FOREGROUND" value="83a598" />
-      </value>
-    </option>
+    <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
   </attributes>
 </scheme>

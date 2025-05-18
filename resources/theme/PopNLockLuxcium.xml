@@ -15,13 +15,13 @@
     <option name="Adaptive.background" value="1C1C2D" />
     <option name="Adaptive.border" value="" />
     <option name="Adaptive.button" value="581167" />
-    <option name="Adaptive.secondaryBackground" value="141421" />
+    <option name="Adaptive.secondaryBackground" value="1D1028" />
     <option name="Adaptive.selectionBackground" value="3621A7" />
     <option name="CARET_COLOR" value="FF3333" />
     <option name="CARET_ROW_COLOR" value="1F2547" />
     <option name="CONSOLE_BACKGROUND_KEY" value="201039" />
     <option name="DELETED_LINES_COLOR" value="6A1D2E" />
-    <option name="DOCUMENTATION_COLOR" value="3A1148" />
+    <option name="DOCUMENTATION_COLOR" value="202952" />
     <option name="DOC_COMMENT_GUIDE" value="462056" />
     <option name="EDITOR_GUTTER_BACKGROUND" value="1D1C2F" />
     <option name="ERROR_HINT" value="86033E" />
@@ -57,7 +57,6 @@
     <option name="INFORMATION_HINT" value="1D1C2E" />
     <option name="LINE_NUMBERS_COLOR" value="58555F" />
     <option name="LOOKUP_COLOR" value="" />
-    <option name="MATCHED_BRACES_INDENT_GUIDE_COLOR" value="3D62A3" />
     <option name="METHOD_SEPARATORS_COLOR" value="2A2A2A" />
     <option name="MODIFIED_LINES_COLOR" value="335D99" />
     <option name="MT_FILESTATUS_ADDED" value="C1FF44" />
@@ -77,9 +76,9 @@
     <option name="QUESTION_HINT" value="20213A" />
     <option name="RECENT_LOCATIONS_SELECTION" value="20213A" />
     <option name="RIGHT_MARGIN_COLOR" value="575466" />
-    <option name="SELECTED_INDENT_GUIDE" value="3D62A3" />
+    <option name="SELECTED_INDENT_GUIDE" value="F8E1AA" />
     <option name="SELECTED_TEARLINE_COLOR" value="545566" />
-    <option name="SELECTION_BACKGROUND" value="283C5F" />
+    <option name="SELECTION_BACKGROUND" value="3621A7" />
     <option name="SEPARATOR_BELOW_COLOR" value="301D44" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="3C3836" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="3C3836" />
@@ -108,11 +107,11 @@
     <option name="ScrollBar.trackColor" value="" />
     <option name="TAB_UNDERLINE" value="5394EC" />
     <option name="TEARLINE_COLOR" value="545566" />
-    <option name="VCS_ANNOTATIONS_COLOR_1" value="1D1028" />
-    <option name="VCS_ANNOTATIONS_COLOR_2" value="1D1028" />
-    <option name="VCS_ANNOTATIONS_COLOR_3" value="1D1028" />
-    <option name="VCS_ANNOTATIONS_COLOR_4" value="1D1028" />
-    <option name="VCS_ANNOTATIONS_COLOR_5" value="1D1028" />
+    <option name="VCS_ANNOTATIONS_COLOR_1" value="141421" />
+    <option name="VCS_ANNOTATIONS_COLOR_2" value="141421" />
+    <option name="VCS_ANNOTATIONS_COLOR_3" value="141421" />
+    <option name="VCS_ANNOTATIONS_COLOR_4" value="141421" />
+    <option name="VCS_ANNOTATIONS_COLOR_5" value="141421" />
     <option name="VISUAL_INDENT_GUIDE" value="20202A" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="335D99" />
   </colors>
@@ -166,8 +165,8 @@
     </option>
     <option name="BREADCRUMBS_HOVERED">
       <value>
-        <option name="FOREGROUND" value="585858" />
-        <option name="BACKGROUND" value="2f1e57" />
+        <option name="FOREGROUND" value="bbbbbb" />
+        <option name="BACKGROUND" value="3b3a3e" />
       </value>
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
@@ -308,7 +307,6 @@
         <option name="EFFECT_COLOR" value="6b4cff" />
       </value>
     </option>
-    <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES" baseAttributes="DEFAULT_KEYWORD" />
     <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
       <value>
@@ -863,6 +861,11 @@
         <option name="FOREGROUND" value="a9c550" />
       </value>
     </option>
+    <option name="LOG_VERBOSE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="5394ec" />
+      </value>
+    </option>
     <option name="LOG_WARNING_OUTPUT">
       <value>
         <option name="FOREGROUND" value="fabe32" />
@@ -877,6 +880,11 @@
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ff8647" />
+      </value>
+    </option>
+    <option name="MATCHED_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="5394ec" />
       </value>
     </option>
     <option name="METHOD_DECLARATION_ATTRIBUTES">
@@ -1270,6 +1278,7 @@
         <option name="FOREGROUND" value="83a598" />
       </value>
     </option>
+    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
     <option name="STATIC_METHOD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="b8bb26" />
@@ -1295,11 +1304,6 @@
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="d5c4a1" />
-      </value>
-    </option>
-    <option name="TERMINAL_COMMAND_TO_RUN_USING_IDE">
-      <value>
-        <option name="BACKGROUND" value="3b4937" />
       </value>
     </option>
     <option name="TEXT">
@@ -1343,11 +1347,6 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="UNMATCHED_BRACE_ATTRIBUTES">
-      <value>
-        <option name="BACKGROUND" value="9e9d8d" />
-      </value>
-    </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="fabd2f" />
@@ -1381,6 +1380,11 @@
         <option name="FOREGROUND" value="ebdbb2" />
       </value>
     </option>
+    <option name="XML_CUSTOM_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+      </value>
+    </option>
     <option name="XML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="fb9e34" />
@@ -1394,7 +1398,7 @@
     </option>
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="d33061" />
+        <option name="FOREGROUND" value="fb4934" />
       </value>
     </option>
     <option name="XPATH.FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
