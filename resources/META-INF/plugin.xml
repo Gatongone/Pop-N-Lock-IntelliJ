@@ -22,7 +22,22 @@
   ]]></description>
 
     <change-notes><![CDATA[
-    Initial release of the theme.
+    <p>
+    <h3>Added</h3>
+    <ol>
+        <li>A new theme, which is closer to Luxcium style.</li>
+        <li>Plugin icon.</li>
+    </ol>
+    </p>
+    
+    <p>
+    <h3>Updated</h3>
+    <ol>
+        <li>Avoiding visually difficult to detect keywords and error colors.</li>
+        <li>Set the default font size to 14.</li>
+        <li>Adjusted color matching on some code schemes.</li>
+    </ol>
+    </p>
   ]]></change-notes>
 
     <depends>com.intellij.modules.platform</depends>
