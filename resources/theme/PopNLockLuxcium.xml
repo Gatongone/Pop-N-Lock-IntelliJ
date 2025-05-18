@@ -1,9 +1,9 @@
-<scheme name="Pop N' Lock Luxcium copy" version="142" parent_scheme="Default">
+<scheme name="Pop N' Lock Luxcium" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="ide">Rider</property>
     <property name="ideVersion">2025.1.2.0.0</property>
-    <property name="originalScheme">Pop N' Lock Luxcium copy</property>
+    <property name="originalScheme">Pop N' Lock Luxcium</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_SIZE" value="14" />
