@@ -4,32 +4,48 @@
   "dark": true,
   "editorScheme": "/PopNLock.xml",
   "colors": {
-    "deepground": "#141421ff",
-    "background": "#1c1c2dff",
+    "deepground": "#141421",
+    "background": "#1c1c2d",
     "hover": "#0c2d47",
     "selection": "#113a5c",
-    "highlight": "#811da2ff",
-    "normal": "#991f8aff",
-    "text": "#bab2aeff",
-    "border": "#313147ff"
+    "highlight": "#811da2",
+    "normal": "#991f8a",
+    "text": "#b4aba5",
+    "border": "#313147",
+    "scrollbar": "#631F68"
   },
   "ui": {
     "*": {
       "foreground": "text",
       "background": "background",
+      "SearchField.background": "deepground",
       "lineSeparatorColor": "background",
       "separatorColor": "background",
+      "borderColor": "background",
+      "inactiveBackground": "background",
+      "lightSelectionBackground": "selection",
       "selectionInactiveBackground": "selection",
       "selectionBackground": "selection",
       "selectedBackground": "selection",
+      "selectedActiveColor": "selection",
+      "activeBackground": "selection",
+      "focusedSelectedButtonColor": "selection",
+      "selectedButtonColor": "selection",
       "hoveredBackground": "hover",
-      "borderColor": "background"
+      "hoverColor": "hover",
+      "underlineColor": "highlight",
+      "hoverBackground": "hover"
     },
     "Button": {
-      "default.startBackground": "highlight",
-      "default.endBackground": "highlight",
+      "background": "highlight",
+      "startBorderColor": "hightlight",
+      "endBorderColor": "hightlight",
       "startBackground": "highlight",
-      "endBackground": "highlight"
+      "endBackground": "highlight",
+      "default.focusColor":"highlight",
+      "default.endBorderColor": "highlight",
+      "default.startBackground": "highlight",
+      "default.endBackground": "highlight"
     },
     "VersionControl": {
       "Log.Commit": {
@@ -37,15 +53,44 @@
         "unmatchedForeground": "deepground"
       }
     },
+    "TabbedPane": {
+      "underlineColor": "highlight",
+      "hoverColor": "hover",
+      "focusColor": "background"
+    },
+    "ScrollBar": {
+      "thumbColor": "scrollbar",
+      "hoverThumbColor": "highlight",
+      "Mac.thumbColor": "scrollbar",
+      "Mac.hoverThumbColor": "highlight",
+      "Mac.Transparent.thumbColor": "scrollbar",
+      "Mac.Transparent.hoverThumbColor": "highlight",
+      "Transparent.thumbColor": "scrollbar",
+      "Transparent.hoverThumbColor": "highlight"
+    },
+    "ComboBox": {
+      "ArrowButton.background": "deepground",
+      "ArrowButton.iconColor": "highlight",
+      "nonEditableBackground": "background",
+      "ArrowButton.nonEditableBackground": "background"
+    },
+    "TextArea.selectionBackground": "selection",
+    "TextField.selectionBackground": "selection",
+    "ComboBoxButton.background": "hightlight",
     "Borders.color": "background",
     "Borders.ContrastBorderColor": "border",
     "ToolWindow.Header.inactiveBackground": "background",
+    "ToolWindow.Button.selectedBackground": "highlight",
     "CompletionPopup.Advertiser.foreground": "highlight",
     "Link.activeForeground": "highlight",
     "TextArea.inactiveBackground": "deepground",
     "Component.borderColor": "border",
     "Table.gridColor": "highlight",
     "Table.stripeColor": "deepground",
-    "TableHeader.bottomSeparatorColor": "border"
+    "TableHeader.bottomSeparatorColor": "border",
+    "EditorTabs.underlinedTabBackground": "background",
+    "Plugins.SectionHeader.background": "deepground",
+    "ActionButton.hoverBackground": "selection",
+    "List.background": "deepground"
   }
 }

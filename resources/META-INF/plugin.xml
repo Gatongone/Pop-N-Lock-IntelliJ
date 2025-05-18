@@ -1,10 +1,10 @@
 <idea-plugin>
     <id>PopNLock</id>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>Pop N'Lock</name>
     <category>UI</category>
     <vendor email="gatongone@gmail.com" url="https://www.github.com.gatongone">Gatongone</vendor>
-    <idea-version since-build="241" until-build="243.*"/>
+    <idea-version since-build="241" until-build="251.*"/>
     <description><![CDATA[
     A dark theme for IntelliJ IDEs, which was inspired by <a href="https://github.com/Luxcium/pop-n-lock-theme-vscode">pop-n-lock-theme-vscode</a> of <a href="https://github.com/Luxcium">Luxcium</a>.
     <br>
@@ -27,6 +27,7 @@
 
     <depends>com.intellij.modules.platform</depends>
     <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="Pop N' Lock Luxcium" path="/theme/PopNLockLuxcium.theme.json"/>
         <themeProvider id="Pop N' Lock" path="/theme/PopNLock.theme.json"/>
     </extensions>
 </idea-plugin>
