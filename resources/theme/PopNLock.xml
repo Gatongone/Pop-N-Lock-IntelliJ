@@ -3,6 +3,7 @@
   <metaInfo>
     <property name="ide">Rider</property>
     <property name="ideVersion">2025.1.2.0.0</property>
+    <property name="originalScheme">Pop N' Lock</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_SIZE" value="14" />
@@ -17,7 +18,7 @@
     <option name="CONSOLE_BACKGROUND_KEY" value="141421" />
     <option name="DELETED_LINES_COLOR" value="6A1D2E" />
     <option name="DOCUMENTATION_COLOR" value="1D1C2E" />
-    <option name="DOC_COMMENT_GUIDE" value="3B482E" />
+    <option name="DOC_COMMENT_GUIDE" value="494E40" />
     <option name="ERROR_HINT" value="20213A" />
     <option name="FILESTATUS_ADDED" value="ABC023" />
     <option name="FILESTATUS_COPIED" value="C3E88D" />
@@ -87,11 +88,11 @@
     <option name="ScrollBar.Mac.thumbBorderColor" value="50494588" />
     <option name="ScrollBar.Mac.thumbColor" value="50494588" />
     <option name="ScrollBar.Mac.trackColor" value="" />
-    <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="72196B" />
-    <option name="ScrollBar.Transparent.hoverThumbColor" value="72196B" />
-    <option name="ScrollBar.Transparent.hoverTrackColor" value="72196B" />
+    <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="9B2192" />
+    <option name="ScrollBar.Transparent.hoverThumbColor" value="9B2192" />
+    <option name="ScrollBar.Transparent.hoverTrackColor" value="" />
     <option name="ScrollBar.Transparent.thumbBorderColor" value="72196B" />
-    <option name="ScrollBar.Transparent.thumbColor" value="811E7C" />
+    <option name="ScrollBar.Transparent.thumbColor" value="72196B" />
     <option name="ScrollBar.Transparent.trackColor" value="" />
     <option name="ScrollBar.background" value="282828" />
     <option name="ScrollBar.hoverThumbBorderColor" value="0E0E2B" />
@@ -300,7 +301,6 @@
       <value>
         <option name="FOREGROUND" value="4690c4" />
         <option name="EFFECT_COLOR" value="6b4cff" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
@@ -810,9 +810,22 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="JADE_FILE_PATH" baseAttributes="DEFAULT_STRING" />
+    <option name="JADE_FILTER_NAME" baseAttributes="DEFAULT_LABEL" />
+    <option name="JADE_JS_BLOCK">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+      </value>
+    </option>
     <option name="JS.DECORATOR">
       <value>
         <option name="FOREGROUND" value="747f92" />
+      </value>
+    </option>
+    <option name="JS.EXPORTED.VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="4394c7" />
+        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION">
@@ -820,11 +833,18 @@
         <option name="FOREGROUND" value="fabd2f" />
       </value>
     </option>
+    <option name="JS.GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="4394c7" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
       <value>
         <option name="FOREGROUND" value="fabd2f" />
       </value>
     </option>
+    <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
     <option name="JSON.PROPERTY_KEY">
       <value>
         <option name="FOREGROUND" value="5394ec" />
@@ -885,6 +905,49 @@
         <option name="FOREGROUND" value="fabd2f" />
       </value>
     </option>
+    <option name="MARKDOWN_BLOCK_QUOTE">
+      <value>
+        <option name="FOREGROUND" value="5394ec" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HEADER_LEVEL_1">
+      <value>
+        <option name="FOREGROUND" value="ff3939" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HEADER_LEVEL_2">
+      <value>
+        <option name="FOREGROUND" value="ff8a39" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HEADER_LEVEL_3">
+      <value>
+        <option name="FOREGROUND" value="f1af3c" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HEADER_LEVEL_4">
+      <value>
+        <option name="FOREGROUND" value="abda33" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HEADER_LEVEL_5">
+      <value>
+        <option name="FOREGROUND" value="51d959" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HEADER_LEVEL_6">
+      <value>
+        <option name="FOREGROUND" value="54d7bf" />
+      </value>
+    </option>
+    <option name="MARKDOWN_INLINE_HTML">
+      <value>
+        <option name="FOREGROUND" value="299999" />
+      </value>
+    </option>
     <option name="MARKED_FOR_REMOVAL_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="ff3939" />
@@ -899,6 +962,26 @@
     <option name="MATCHED_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="5394ec" />
+      </value>
+    </option>
+    <option name="MERMAID_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="MERMAID_DIAGRAM_NAME" baseAttributes="MERMAID_KEYWORD" />
+    <option name="MERMAID_FRONTMATTER_DELIMITER" baseAttributes="MERMAID_STRING" />
+    <option name="MERMAID_GENERIC">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+      </value>
+    </option>
+    <option name="MERMAID_IDENTIFIER" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="MERMAID_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="MERMAID_NOTE">
+      <value>
+        <option name="FOREGROUND" value="747f92" />
+      </value>
+    </option>
+    <option name="MERMAID_TITLE">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
       </value>
     </option>
     <option name="METHOD_DECLARATION_ATTRIBUTES">
@@ -1171,6 +1254,11 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
+    <option name="ReSharper.IL_VIEWER_SYNCHRONIZATION">
+      <value>
+        <option name="BACKGROUND" value="295726" />
+      </value>
+    </option>
     <option name="ReSharper.MATCHED_FORMAT_STRING_ITEM">
       <value>
         <option name="BACKGROUND" value="a4648" />
@@ -1202,7 +1290,7 @@
     </option>
     <option name="ReSharper.T4_MACRO">
       <value>
-        <option name="FOREGROUND" value="6b4cff" />
+        <option name="FOREGROUND" value="fabd2f" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -1335,6 +1423,11 @@
         <option name="FOREGROUND" value="fabd2f" />
       </value>
     </option>
+    <option name="TS.TYPE_GUARD">
+      <value>
+        <option name="FOREGROUND" value="a134fb" />
+      </value>
+    </option>
     <option name="TS.TYPE_PARAMETER">
       <value>
         <option name="FOREGROUND" value="fabd2f" />
@@ -1350,6 +1443,16 @@
       <value>
         <option name="EFFECT_COLOR" value="abc023" />
         <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="UE_LOG_VERBOSE">
+      <value>
+        <option name="FOREGROUND" value="3399ff" />
+      </value>
+    </option>
+    <option name="UE_LOG_VERY_VERBOSE">
+      <value>
+        <option name="FOREGROUND" value="3399ff" />
       </value>
     </option>
     <option name="UNMATCHED_BRACE_ATTRIBUTES">
@@ -1411,6 +1514,43 @@
         <option name="FOREGROUND" value="fb4934" />
       </value>
     </option>
-    <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="XPATH.FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+      </value>
+    </option>
+    <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="XPATH.XPATH_NAME">
+      <value>
+        <option name="FOREGROUND" value="abc023" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="XPATH.XPATH_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="747f92" />
+      </value>
+    </option>
+    <option name="XSLT_DIRECTIVE">
+      <value>
+        <option name="FOREGROUND" value="747f92" />
+      </value>
+    </option>
+    <option name="YAML_ANCHOR">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+      </value>
+    </option>
+    <option name="YAML_SCALAR_VALUE">
+      <value>
+        <option name="FOREGROUND" value="747f92" />
+      </value>
+    </option>
+    <option name="YAML_TEXT">
+      <value>
+        <option name="FOREGROUND" value="abc023" />
+        <option name="BACKGROUND" value="20213a" />
+      </value>
+    </option>
   </attributes>
 </scheme>
