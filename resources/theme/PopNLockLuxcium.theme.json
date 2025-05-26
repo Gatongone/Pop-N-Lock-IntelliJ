@@ -28,6 +28,7 @@
       "foreground": "text",
       "background": "background",
       "borderColor": "background",
+      "inlineCodeBackground": "deepground",
       "lineSeparatorColor": "background",
       "separatorColor": "background",
       "inactiveBackground": "background",

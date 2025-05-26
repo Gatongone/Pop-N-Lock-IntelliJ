@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>PopNLock</id>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <name>Pop N'Lock</name>
     <category>UI</category>
     <vendor email="gatongone@gmail.com" url="https://www.github.com.gatongone">Gatongone</vendor>
@@ -23,19 +23,16 @@
 
     <change-notes><![CDATA[
     <p>
-    <h3>Added</h3>
+    <h3>Updated</h3>
     <ol>
-        <li>A new theme, which is closer to Luxcium style.</li>
-        <li>Plugin icon.</li>
+        <li>Adjusted color matching on AIAssistant.</li>
     </ol>
     </p>
     
     <p>
-    <h3>Updated</h3>
+    <h3>Fixed</h3>
     <ol>
-        <li>Avoiding visually difficult to detect keywords and error colors.</li>
-        <li>Set the default font size to 14.</li>
-        <li>Adjusted color matching on some code schemes.</li>
+        <li>Pop N' Lock theme horizontal scrollbar track hover with incorrect color.</li>
     </ol>
     </p>
   ]]></change-notes>

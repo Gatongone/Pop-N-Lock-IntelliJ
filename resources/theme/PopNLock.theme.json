@@ -18,6 +18,7 @@
     "*": {
       "foreground": "text",
       "background": "background",
+      "inlineCodeBackground": "deepground",
       "SearchField.background": "deepground",
       "lineSeparatorColor": "background",
       "separatorColor": "background",

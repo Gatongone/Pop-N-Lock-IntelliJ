@@ -309,7 +309,6 @@
       <value>
         <option name="FOREGROUND" value="5394ec" />
         <option name="EFFECT_COLOR" value="6b4cff" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
@@ -817,6 +816,22 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="JADE_FILE_PATH">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+      </value>
+    </option>
+    <option name="JADE_FILTER_NAME">
+      <value>
+        <option name="FOREGROUND" value="727262" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="JADE_JS_BLOCK">
+      <value>
+        <option name="FOREGROUND" value="fb9e34" />
+      </value>
+    </option>
     <option name="JS.DECORATOR">
       <value>
         <option name="FOREGROUND" value="747f92" />
@@ -1266,6 +1281,7 @@
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
+    <option name="ReSharper.STRING_ESCAPE_CHARACTER_2" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
     <option name="ReSharper.ST_METHOD">
       <value>
         <option name="FOREGROUND" value="a9c550" />
@@ -1439,6 +1455,11 @@
         <option name="FOREGROUND" value="fabd2f" />
       </value>
     </option>
+    <option name="TS.TYPE_GUARD">
+      <value>
+        <option name="BACKGROUND" value="465e2f" />
+      </value>
+    </option>
     <option name="TS.TYPE_PARAMETER">
       <value>
         <option name="FOREGROUND" value="fabd2f" />
@@ -1458,7 +1479,7 @@
     </option>
     <option name="UNMATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="9e9d8d" />
+        <option name="BACKGROUND" value="db1845" />
       </value>
     </option>
     <option name="WARNING_ATTRIBUTES">
@@ -1484,7 +1505,7 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="fb4934" />
+        <option name="FOREGROUND" value="7c7a7a" />
         <option name="EFFECT_COLOR" value="ea1748" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
