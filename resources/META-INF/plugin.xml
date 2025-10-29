@@ -4,7 +4,7 @@
     <name>Pop N'Lock</name>
     <category>UI</category>
     <vendor email="gatongone@gmail.com" url="https://www.github.com.gatongone">Gatongone</vendor>
-    <idea-version since-build="241" until-build="251.*"/>
+    <idea-version since-build="241"/>
     <description><![CDATA[
     A dark theme for IntelliJ IDEs, which was inspired by <a href="https://github.com/Luxcium/pop-n-lock-theme-vscode">pop-n-lock-theme-vscode</a> of <a href="https://github.com/Luxcium">Luxcium</a>.
     <br>

@@ -1,7 +1,7 @@
 # Pop N' Lock Theme For Jetbrains IDEs
 
 <div style="text-align: center;">
-<img src="https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Fraw.githubusercontent.com%2FGatongone%2FPop-N-Lock-IntelliJ%2Frefs%2Fheads%2Fmain%2Fresources%2FMETA-INF%2Fplugin.xml&query=concat(%2F%2F%40since-build%2C'-'%2C%2F%2F%40until-build)&logoSize=auto&label=build&color=blue" alt="IDEA build version">
+<img src="https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Fraw.githubusercontent.com%2FGatongone%2FPop-N-Lock-IntelliJ%2Frefs%2Fheads%2Fmain%2Fresources%2FMETA-INF%2Fplugin.xml&query=concat(%2F%2F%40since-build%2C'-*')&logoSize=auto&label=build&color=blue" alt="IDEA build version">
 <a href="https://github.com/Gatongone/Pop-N-Lock-IntelliJ/releases"><img src="https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Fraw.githubusercontent.com%2FGatongone%2FPop-N-Lock-IntelliJ%2Frefs%2Fheads%2Fmain%2Fresources%2FMETA-INF%2Fplugin.xml&query=%2Fidea-plugin%2Fversion%5B1%5D&logoSize=auto&label=version&color=green" alt="Release version"></a>
 <a href="https://plugins.jetbrains.com/plugin/26241-pop-n-lock"><img src="https://img.shields.io/badge/marketplace-🌈-red" alt="Jetbrains Marketplace"/></a>
 <a href="https://github.com/Gatongone/Pop-N-Lock-IntelliJ/stargazers"><img src="https://img.shields.io/github/stars/Gatongone/Pop-N-Lock-IntelliJ" alt="Stars Badge"></a>
