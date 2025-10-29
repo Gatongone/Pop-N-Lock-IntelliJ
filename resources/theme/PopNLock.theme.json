@@ -11,11 +11,13 @@
     "highlight": "#811da2",
     "normal": "#991f8a",
     "text": "#b4aba5",
+    "text_dark": "#726862",
     "border": "#313147",
     "scrollbar": "#631F68"
   },
   "ui": {
     "*": {
+      "infoForeground": "text_dark",
       "foreground": "text",
       "background": "background",
       "SearchField.background": "deepground",
@@ -50,7 +52,7 @@
     "VersionControl": {
       "Log.Commit": {
         "currentBranchBackground": "background",
-        "unmatchedForeground": "deepground"
+        "unmatchedForeground": "text_dark"
       }
     },
     "TabbedPane": {
