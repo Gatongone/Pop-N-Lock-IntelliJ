@@ -12,6 +12,7 @@
     "highlight": "#811da2ff",
     "normal": "#991f8aff",
     "text": "#D2C8BEDD",
+    "text_dark": "#726862",
     "border": "#313147ff",
     "border2": "#917c45",
     "button": "#581167ff",
@@ -25,6 +26,7 @@
   },
   "ui": {
     "*": {
+      "infoForeground": "text_dark",
       "foreground": "text",
       "background": "background",
       "borderColor": "background",
@@ -58,7 +60,7 @@
     "VersionControl": {
       "Log.Commit": {
         "currentBranchBackground": "background",
-        "unmatchedForeground": "deepground"
+        "unmatchedForeground": "text_dark"
       }
     },
     "TabbedPane": {
