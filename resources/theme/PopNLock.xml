@@ -3,7 +3,6 @@
   <metaInfo>
     <property name="ide">Rider</property>
     <property name="ideVersion">2025.1.2.0.0</property>
-    <property name="originalScheme">Pop N' Lock</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_SIZE" value="14" />
@@ -12,7 +11,7 @@
   <colors>
     <option name="ADDED_LINES_COLOR" value="596510" />
     <option name="ANNOTATIONS_COLOR" value="BFB1B1" />
-    <option name="Adaptive.accent" value="811DA2" />
+    <option name="Adaptive.accent" value="1D1C2E" />
     <option name="CARET_COLOR" value="B9BBBF" />
     <option name="CARET_ROW_COLOR" value="1F2547" />
     <option name="CONSOLE_BACKGROUND_KEY" value="141421" />
@@ -255,6 +254,11 @@
         <option name="FOREGROUND" value="ebdbb2" />
       </value>
     </option>
+    <option name="CONSOLE_RANGE_TO_EXECUTE">
+      <value>
+        <option name="EFFECT_COLOR" value="284d94" />
+      </value>
+    </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
       <value>
         <option name="FOREGROUND" value="fb4934" />
@@ -301,6 +305,7 @@
       <value>
         <option name="FOREGROUND" value="4690c4" />
         <option name="EFFECT_COLOR" value="6b4cff" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
@@ -390,6 +395,12 @@
         <option name="BACKGROUND" value="4b452d" />
       </value>
     </option>
+    <option name="DEBUGGER_INLINED_VALUES_EXECUTION_LINE">
+      <value>
+        <option name="BACKGROUND" value="47691d" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
         <option name="FOREGROUND" value="d3869b" />
@@ -440,7 +451,7 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
       <value>
-        <option name="FOREGROUND" value="b8a789" />
+        <option name="FOREGROUND" value="d0bd98" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
@@ -657,6 +668,24 @@
         <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
+    <option name="EVALUATED_EXPRESSION_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="141421" />
+        <option name="BACKGROUND" value="7ca14e" />
+      </value>
+    </option>
+    <option name="EVALUATED_EXPRESSION_EXECUTION_LINE_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="141421" />
+        <option name="BACKGROUND" value="7ca14e" />
+      </value>
+    </option>
+    <option name="EXECUTIONPOINT_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="2154a6" />
+        <option name="ERROR_STRIPE_COLOR" value="2154a6" />
+      </value>
+    </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value />
     </option>
@@ -792,10 +821,46 @@
         <option name="FOREGROUND" value="f9f5d7" />
       </value>
     </option>
+    <option name="INLAY_BUTTON_FOCUSED">
+      <value>
+        <option name="FOREGROUND" value="fbf1c7" />
+      </value>
+    </option>
+    <option name="INLAY_BUTTON_HOVERED">
+      <value>
+        <option name="FOREGROUND" value="fbf1c7" />
+      </value>
+    </option>
+    <option name="INLAY_DEFAULT">
+      <value>
+        <option name="FOREGROUND" value="83786e" />
+      </value>
+    </option>
     <option name="INLINE_PARAMETER_HINT">
       <value>
         <option name="FOREGROUND" value="fbf1c7" />
         <option name="BACKGROUND" value="8ec07c" />
+      </value>
+    </option>
+    <option name="INLINE_STACK_FRAMES">
+      <value>
+        <option name="BACKGROUND" value="7c63ad" />
+        <option name="FOREGROUND" value="83786e" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_CURRENT">
+      <value>
+        <option name="FOREGROUND" value="83786e" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
+      <value>
+        <option name="FOREGROUND" value="83786e" />
+      </value>
+    </option>
+    <option name="INLINE_STACK_FRAMES">
+      <value>
+        <option name="BACKGROUND" value="7c63ad" />
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
@@ -810,8 +875,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="JADE_FILE_PATH" baseAttributes="DEFAULT_STRING" />
-    <option name="JADE_FILTER_NAME" baseAttributes="DEFAULT_LABEL" />
     <option name="JADE_JS_BLOCK">
       <value>
         <option name="FOREGROUND" value="fabd2f" />
@@ -819,7 +882,7 @@
     </option>
     <option name="JS.DECORATOR">
       <value>
-        <option name="FOREGROUND" value="747f92" />
+        <option name="FOREGROUND" value="fabd2f" />
       </value>
     </option>
     <option name="JS.EXPORTED.VARIABLE">
@@ -830,7 +893,7 @@
     </option>
     <option name="JS.GLOBAL_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="fabd2f" />
+        <option name="FOREGROUND" value="b8bb26" />
       </value>
     </option>
     <option name="JS.GLOBAL_VARIABLE">
@@ -839,11 +902,13 @@
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
-    <option name="JS.INSTANCE_MEMBER_FUNCTION">
+    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="JS.LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="fabd2f" />
+        <option name="FOREGROUND" value="d0bd98" />
       </value>
     </option>
+    <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
     <option name="JSON.PROPERTY_KEY">
       <value>
@@ -878,6 +943,46 @@
     <option name="KOTLIN_TYPE_PARAMETER">
       <value>
         <option name="FOREGROUND" value="83a598" />
+      </value>
+    </option>
+    <option name="LIVE_TEMPLATE_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="284d94" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_LEVEL_ASSERT">
+      <value>
+        <option name="BACKGROUND" value="7f0000" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_LEVEL_DEBUG">
+      <value>
+        <option name="BACKGROUND" value="113e6c" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_LEVEL_ERROR">
+      <value>
+        <option name="BACKGROUND" value="cf5b56" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_LEVEL_INFO">
+      <value>
+        <option name="BACKGROUND" value="226369" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_LEVEL_VERBOSE">
+      <value>
+        <option name="BACKGROUND" value="606060" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_LEVEL_WARNING">
+      <value>
+        <option name="BACKGROUND" value="a6880f" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_MESSAGE_VERBOSE">
+      <value>
+        <option name="FOREGROUND" value="a9a9a9" />
       </value>
     </option>
     <option name="LOG_ERROR_OUTPUT">
@@ -987,6 +1092,11 @@
     <option name="METHOD_DECLARATION_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="83a598" />
+      </value>
+    </option>
+    <option name="NOT_TOP_FRAME_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="284d94" />
       </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
@@ -1225,6 +1335,11 @@
     </option>
     <option name="ReSharper.ASP_NET_RAZOR_TAG_HELPER_ATTRIBUTE" baseAttributes="ReSharper.ASP_NET_RAZOR_KEYWORD" />
     <option name="ReSharper.ASP_NET_RAZOR_TAG_HELPER_ELEMENT" baseAttributes="ReSharper.ASP_NET_RAZOR_KEYWORD" />
+    <option name="ReSharper.ASSEMBLY_EXPLORER_TYPE_ELEMENT">
+      <value>
+        <option name="FOREGROUND" value="95bb21" />
+      </value>
+    </option>
     <option name="ReSharper.COGNITIVE_COMPLEXITY_ERROR_HINT">
       <value>
         <option name="FOREGROUND" value="f4f4f4" />
@@ -1269,9 +1384,6 @@
         <option name="FOREGROUND" value="91b7c9" />
       </value>
     </option>
-    <option name="ReSharper.STRING_ESCAPE_CHARACTER_2" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
-    <option name="ReSharper.ST_METHOD" baseAttributes="DEFAULT_INSTANCE_METHOD" />
-    <option name="ReSharper.ST_TYPE" baseAttributes="DEFAULT_CLASS_NAME" />
     <option name="ReSharper.T4_DIRECTIVE">
       <value>
         <option name="FOREGROUND" value="ff3939" />
@@ -1423,9 +1535,16 @@
         <option name="FOREGROUND" value="fabd2f" />
       </value>
     </option>
+    <option name="TS.PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="83a598" />
+        <option name="EFFECT_COLOR" value="0" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="TS.TYPE_GUARD">
       <value>
-        <option name="FOREGROUND" value="a134fb" />
+        <option name="FOREGROUND" value="83a598" />
       </value>
     </option>
     <option name="TS.TYPE_PARAMETER">
@@ -1550,6 +1669,215 @@
       <value>
         <option name="FOREGROUND" value="abc023" />
         <option name="BACKGROUND" value="20213a" />
+      </value>
+    </option>
+    <option name="org.rust.ASSOC_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="b8bb26" />
+      </value>
+    </option>
+    <option name="org.rust.ASSOC_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="b8bb26" />
+      </value>
+    </option>
+    <option name="org.rust.ASSOC_TRAIT_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="b8bb26" />
+      </value>
+    </option>
+    <option name="org.rust.ASSOC_TRAIT_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="b8bb26" />
+      </value>
+    </option>
+    <option name="org.rust.ATTRIBUTE">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+      </value>
+    </option>
+    <option name="org.rust.CFG_DISABLED_CODE">
+      <value>
+        <option name="FOREGROUND" value="83786e" />
+      </value>
+    </option>
+    <option name="org.rust.CRATE">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+      </value>
+    </option>
+    <option name="org.rust.DOC_CODE">
+      <value>
+        <option name="FOREGROUND" value="d0bd98" />
+      </value>
+    </option>
+    <option name="org.rust.ENUM">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="org.rust.FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="b8bb26" />
+      </value>
+    </option>
+    <option name="org.rust.FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="b8bb26" />
+      </value>
+    </option>
+    <option name="org.rust.LIFETIME">
+      <value>
+        <option name="FOREGROUND" value="7d69d2" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="org.rust.MACRO">
+      <value>
+        <option name="FOREGROUND" value="b8bb26" />
+      </value>
+    </option>
+    <option name="org.rust.MACRO_BINDING_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+      </value>
+    </option>
+    <option name="org.rust.MACRO_COLON">
+      <value>
+        <option name="FOREGROUND" value="fbf1c7" />
+      </value>
+    </option>
+    <option name="org.rust.MACRO_DOLLAR">
+      <value>
+        <option name="FOREGROUND" value="fb4934" />
+      </value>
+    </option>
+    <option name="org.rust.MACRO_EXCL">
+      <value>
+        <option name="FOREGROUND" value="fb4934" />
+      </value>
+    </option>
+    <option name="org.rust.MACRO_GROUP_ELEMENTS">
+      <value>
+        <option name="FOREGROUND" value="83a598" />
+      </value>
+    </option>
+    <option name="org.rust.MACRO_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+      </value>
+    </option>
+    <option name="org.rust.MACRO_META_VAR_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="83a598" />
+      </value>
+    </option>
+    <option name="org.rust.MACRO_RULES">
+      <value>
+        <option name="FOREGROUND" value="fb4934" />
+      </value>
+    </option>
+    <option name="org.rust.METHOD">
+      <value>
+        <option name="FOREGROUND" value="b8bb26" />
+      </value>
+    </option>
+    <option name="org.rust.METHOD_CALL">
+      <value>
+        <option name="FOREGROUND" value="b8bb26" />
+      </value>
+    </option>
+    <option name="org.rust.MUT_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="83a598" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="org.rust.MUT_SELF_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="83a598" />
+        <option name="EFFECT_COLOR" value="909090" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="org.rust.OVERLOADED_OPERATOR">
+      <value>
+        <option name="FOREGROUND" value="fbf1c7" />
+      </value>
+    </option>
+    <option name="org.rust.PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="83a598" />
+      </value>
+    </option>
+    <option name="org.rust.Q_OPERATOR">
+      <value>
+        <option name="FOREGROUND" value="fbf1c7" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="org.rust.SELF_EXPRESSION">
+      <value>
+        <option name="FOREGROUND" value="83a598" />
+      </value>
+    </option>
+    <option name="org.rust.SELF_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="83a598" />
+      </value>
+    </option>
+    <option name="org.rust.STATIC">
+      <value>
+        <option name="FOREGROUND" value="d0bd98" />
+      </value>
+    </option>
+    <option name="org.rust.STRUCT">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+      </value>
+    </option>
+    <option name="org.rust.TRAIT">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+      </value>
+    </option>
+    <option name="org.rust.TRAIT_METHOD">
+      <value>
+        <option name="FOREGROUND" value="b8bb26" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="org.rust.TRAIT_METHOD_CALL">
+      <value>
+        <option name="FOREGROUND" value="b8bb26" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="org.rust.TYPE_ALIAS">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+      </value>
+    </option>
+    <option name="org.rust.TYPE_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+      </value>
+    </option>
+    <option name="org.rust.UNION">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+      </value>
+    </option>
+    <option name="org.rust.UNSAFE_CODE">
+      <value>
+        <option name="EFFECT_COLOR" value="c7a843" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="org.rust.VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="d0bd98" />
       </value>
     </option>
   </attributes>
