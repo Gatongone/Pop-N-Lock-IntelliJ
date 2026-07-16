@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>PopNLock</id>
-    <version>0.0.5</version>
+    <version>0.0.6</version>
     <name>Pop N'Lock</name>
     <category>UI</category>
     <vendor email="gatongone@gmail.com" url="https://www.github.com.gatongone">Gatongone</vendor>
@@ -23,9 +23,9 @@
 
     <change-notes><![CDATA[
     <p>
-    <h3>Fixed</h3>
+    <h3>Feature:</h3>
     <ol>
-        <li>Adjust bottom thumb color.</li>
+        <li>Adjust RustRover color.</li>
     </ol>
     </p>
   ]]></change-notes>
